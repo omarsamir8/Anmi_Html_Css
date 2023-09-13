@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.logo {
+  width: 100px;
+  height: 40px;
+  margin-left: -30px;
+}
+img {
+  width: 50px;
+  margin-left: 40px;
+}
+.containerr {
+  /* background-image: url("../imgs/background2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.two {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -60px;
+  margin-top: 10px;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+}
+.three {
+  margin-top: 15px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(8, 8, 8);
+}
+.three i {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+.three i:hover {
+  color: blue;
+}
+a {
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  color: blue;
+}
+.home {
+  text-align: center;
+  width: 60px;
+  margin-top: 20px;
+}
+.home:hover {
+  color: blue;
+}
+.three img {
+  width: 40px;
+  height: 30px;
+  margin-top: 20px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+select {
+  width: 60px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: white;
+  background-color: black;
+}
+
+.five h1 {
+  color: rgb(12, 12, 12);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+h1:hover {
+  font-size: 55px;
+  color: rgb(29, 5, 248);
+}
+.lorem {
+  width: 1000px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 30px;
+  font-family: cursive;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+.lorem:hover {
+  color: rgb(12, 9, 223);
+  font-size: 30px;
+}
+.six {
+  margin-top: 285px;
+  margin-left: 550px;
+}
+.six i {
+  width: 60px;
+  height: 25px;
+  margin-left: 10px;
+}
+.six i:nth-child(1):hover {
+  color: blue;
+}
+.six i:nth-child(2):hover {
+  color: aqua;
+}
+.six i:nth-child(4):hover {
+  color: blueviolet;
+}
+.six i:nth-child(3):hover {
+  color: rgb(123, 123, 248);
+}

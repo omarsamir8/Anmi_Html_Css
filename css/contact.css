@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  /* background-image: url("../imgs/baga.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+h1:hover {
+  font-size: 60px;
+  font-family: cursive;
+}
+input {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  border-radius: 15px;
+}
+input:hover {
+  font-weight: bold;
+  opacity: 0.7;
+  width: 600px;
+  height: 60px;
+}
+textarea {
+  font-size: 20px;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  border-radius: 15px;
+}
+textarea:hover {
+  width: 600px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+button {
+  width: 100px;
+  height: 30px;
+  opacity: 0.5;
+  border-radius: 15px;
+  background-color: rgb(224, 208, 188);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+button:hover {
+  width: 130px;
+  background-color: blue;
+  color: white;
+}
